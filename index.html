@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            text-align: center;
+        }
+        
+        .main {
+            border: 2px solid black;
+            padding: 20px;
+            width: 30%;
+        }
+        
+        @media screen and (max-width:425px) {
+            .main {
+                border: 2px solid black;
+                padding: 10px;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upper" style="text-align: center;align-items: center;display: flex;flex-direction: column;justify-content: center;">
+        <h4>Convert number to words</h4>
+        <div class="main" style="text-align: center;">
+            <h2>Write any number</h2>
+            <input type="number" id="number" name="" id="">
+        </div>
+        <h3 id="words"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
